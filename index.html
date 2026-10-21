@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сільське господарство України — Навчальний проєкт</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f7f5f0;
+            color: #2c3531;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-emerald-200 selection:text-emerald-900">
+
+    <!-- Header Section -->
+    <header class="max-w-3xl mx-auto pt-12 pb-8 px-6 text-center">
+        <div class="inline-block text-xs font-semibold tracking-wider text-emerald-800 uppercase bg-emerald-100/80 px-3 py-1 rounded-full mb-3">
+            Навчальний проєкт
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 tracking-tight">
+            Сільське господарство України
+        </h1>
+        <p class="mt-3 text-base text-stone-600 max-w-xl mx-auto leading-relaxed">
+            Стислий огляд ключових факторів, основних галузей та значення аграрного сектору для економіки України та світу.
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-6 space-y-10 pb-12 w-full">
+
+        <!-- Section 1: Чому Україна — житниця Європи? -->
+        <section class="bg-white p-6 sm:p-8 rounded-2xl border border-stone-200/80 shadow-sm space-y-4">
+            <h2 class="text-xl font-bold text-stone-900 flex items-center gap-2">
+                <span class="text-emerald-700">🌱</span> Чому Україна — житниця Європи?
+            </h2>
+            <p class="text-stone-600 leading-relaxed text-sm sm:text-base">
+                Україна історично має статус однієї з найродючіших країн світу. Головна причина цього — унікальне поєднання природних ресурсів та сприятливих умов:
+            </p>
+            <ul class="space-y-2 text-sm text-stone-600 pl-2">
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-600 font-bold">•</span>
+                    <span><strong>Родючі чорноземи:</strong> В Україні зосереджено значну частину світових запасів чорнозему, що дозволяє отримувати високі врожаї.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-600 font-bold">•</span>
+                    <span><strong>Помірний клімат:</strong> Достатня кількість тепла та опадів створює комфортні умови для вирощування багатьох сільськогосподарських культур.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-emerald-600 font-bold">•</span>
+                    <span><strong>Вигідне географічне розташування:</strong> Доступ до морських портів та близькість до європейського ринку полегшують логістику та експорт.</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 2: Основні напрямки -->
+        <section class="space-y-4">
+            <h2 class="text-xl font-bold text-stone-900 flex items-center gap-2">
+                <span class="text-emerald-700">🌾</span> Основні напрямки
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                
+                <!-- Рослинництво -->
+                <div class="bg-white p-5 rounded-2xl border border-stone-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-2xl mb-2">🌽</div>
+                        <h3 class="font-bold text-stone-900 text-base mb-1">Рослинництво</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            Основна галузь. Включає вирощування зернових (пшениця, кукурудза, ячмінь) та олійних культур (соняшник, ріпак).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Тваринництво -->
+                <div class="bg-white p-5 rounded-2xl border border-stone-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-2xl mb-2">🐄</div>
+                        <h3 class="font-bold text-stone-900 text-base mb-1">Тваринництво</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            Забезпечує внутрішній ринок м'ясом, молоком та яйцями. Включає скотарство, свинарство та птахівництво.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Експорт -->
+                <div class="bg-white p-5 rounded-2xl border border-stone-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-2xl mb-2">🚢</div>
+                        <h3 class="font-bold text-stone-900 text-base mb-1">Експорт</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            Україна постачає агропродукцію у понад 100 країн світу, забезпечуючи продовольчу безпеку багатьох регіонів.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: Цікаві факти -->
+        <section class="bg-white p-6 sm:p-8 rounded-2xl border border-stone-200/80 shadow-sm space-y-4">
+            <h2 class="text-xl font-bold text-stone-900 flex items-center gap-2">
+                <span class="text-emerald-700">📊</span> Цікаві факти
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                <div class="p-3 bg-stone-50 rounded-xl border border-stone-200/60">
+                    <span class="text-emerald-700 font-bold text-lg block">№1 у світі</span>
+                    <span class="text-stone-600 text-xs">за експортом соняшникової олії.</span>
+                </div>
+                <div class="p-3 bg-stone-50 rounded-xl border border-stone-200/60">
+                    <span class="text-emerald-700 font-bold text-lg block">~25%</span>
+                    <span class="text-stone-600 text-xs">площі світового чорнозему зосереджено в Україні.</span>
+                </div>
+                <div class="p-3 bg-stone-50 rounded-xl border border-stone-200/60">
+                    <span class="text-emerald-700 font-bold text-lg block">Топ-5</span>
+                    <span class="text-stone-600 text-xs">найбільших світових експортерів кукурудзи та пшениці.</span>
+                </div>
+                <div class="p-3 bg-stone-50 rounded-xl border border-stone-200/60">
+                    <span class="text-emerald-700 font-bold text-lg block">400+ млн</span>
+                    <span class="text-stone-600 text-xs">людей у світі годує українське зерно.</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-stone-200 py-6 text-center text-xs text-stone-500 bg-white/50">
+        <p>Самостійний навчальний проєкт • 2026</p>
+    </footer>
+
+</body>
+</html>
